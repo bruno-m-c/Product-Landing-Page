@@ -6,3 +6,11 @@
 #header-img {
     width: 30px;
 }
+#nav-bar {
+  display: flex;
+  flex-direction: row;
+}
+#navegation {
+  justify-content: flex-end;
+  flex-wrap: nowrap;
+}
