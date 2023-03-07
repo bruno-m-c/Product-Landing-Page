@@ -4,13 +4,22 @@
   }
 }
 #header-img {
-    width: 30px;
-}
+  width: 30px;
+  border-color: black;
+  border-width: .25em;  
+  border-style: double;
+} 
 #nav-bar {
   display: flex;
-  flex-direction: row;
+  border-color: black;
+  border-width: .25em;  
+  border-style: double;
+  width: 100%;
 }
 #navegation {
-  justify-content: flex-end;
-  flex-wrap: nowrap;
+  display: flex;
+  border-color: black;
+  border-width: .25em;  
+  border-style: double;
+  list-style: none;
 }
