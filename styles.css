@@ -1,0 +1,8 @@
+@media (prefers-reduced-motion: no-preference) {
+    * {
+      scroll-behavior: smooth;
+  }
+}
+#header-img {
+    width: 30px;
+}
