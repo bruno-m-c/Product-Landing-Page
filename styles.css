@@ -54,3 +54,14 @@ input {
   display: block;
   margin: 4px auto;
 }
+#About_Us {
+  border-color: black;
+  border-width: .25em;  
+  border-style: double;
+  text-align: center;
+}
+.icon {
+  border-color: black;
+  border-width: .25em;  
+  border-style: double;
+}
