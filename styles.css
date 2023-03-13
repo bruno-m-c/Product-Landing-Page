@@ -26,7 +26,7 @@
   list-style: none;
   justify-content: space-between;
   width: 25%;
-  padding-right: 2em;
+  margin-right: 25px;
 }
 #nav {
   display: flex;
@@ -42,13 +42,17 @@
   padding-right: 5px;
 }
 #header {
-  padding: 0 0 50px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
 }
 form {
   border-color: black;
   border-width: .25em;  
   border-style: double;
   text-align: center;
+  margin: 80px auto;
 }
 input {
   display: block;
@@ -61,6 +65,11 @@ input {
   text-align: center;
 }
 .icon {
+  border-color: black;
+  border-width: .25em;  
+  border-style: double;
+}
+div > h2 {
   border-color: black;
   border-width: .25em;  
   border-style: double;
