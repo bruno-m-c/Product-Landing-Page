@@ -62,15 +62,45 @@ input {
   border-color: black;
   border-width: .25em;  
   border-style: double;
-  text-align: center;
+  max-width:fit-content;
+  margin: auto;
+  max-height: fit-content;
 }
 .icon {
   border-color: black;
   border-width: .25em;  
   border-style: double;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
-div > h2 {
+.desc {
   border-color: black;
   border-width: .25em;  
   border-style: double;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 0;
+}
+.name {
+  border-color: black;
+  border-width: .25em;  
+  border-style: double;
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 0;
+}
+.grid {
+  display: flex;
+  justify-content: flex-start;
+}
+#Video {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+#video {
+  max-width: 450px;
+  width: 100%;
 }
