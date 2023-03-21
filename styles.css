@@ -104,3 +104,15 @@ input {
   max-width: 450px;
   width: 100%;
 }
+img {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+#Pictures {
+  display: flex;
+  border-color: black;
+  border-width: .25em;  
+  border-style: double;
+  justify-content: space-evenly;
+}
