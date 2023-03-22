@@ -123,15 +123,15 @@ img {
   border-width: .25em;  
   border-style: double;
 }
-.content {
+.content1 {
   cursor: pointer;
   width: 200px;
   height:200px;
 }
 .Card-front1, .Card-back1{
   display: flex;
-  width:200px;
-  height: 200px;
+  width: 200px;
+  height:200px;
   overflow:hidden;
   backface-visibility:hidden;
   position:absolute;
@@ -139,19 +139,107 @@ img {
   border-color: red;
   border-width: .25em;  
   border-style: double;
+  justify-content: center;
+  align-items: center;
 }
-.content:hover > .Card-front1{
+.content1:hover > .Card-front1{
   transform: perspective(600px) rotateY(-180deg);
 }
-.content:hover > .Card-back1{
+.content1:hover > .Card-back1{
   transform: perspective(600px) rotateY(0deg);
 }
 .Card-back1{
   background:rgb(151, 133, 211);
   transform:rotateY(180deg);
 }
-p {
+#Lily {
+  display: flex;
   border-color: black;
   border-width: .25em;  
   border-style: double;
+}
+.content2 {
+  cursor: pointer;
+  width: 200px;
+  height:200px;
+}
+.Card-front2, .Card-back2{
+  display: flex;
+  width: 200px;
+  height:200px;
+  overflow:hidden;
+  backface-visibility:hidden;
+  position:absolute;
+  transition: transform .5s linear;
+  border-color: red;
+  border-width: .25em;  
+  border-style: double;
+  justify-content: center;
+  align-items: center;
+}
+.content2:hover > .Card-front2{
+  transform: perspective(600px) rotateY(-180deg);
+}
+.content2:hover > .Card-back2{
+  transform: perspective(600px) rotateY(0deg);
+}
+.Card-back2{
+  background:rgb(151, 133, 211);
+  transform:rotateY(180deg);
+}
+#Cassie {
+  display: flex;
+  border-color: black;
+  border-width: .25em;  
+  border-style: double;
+}
+.content3 {
+  cursor: pointer;
+  width: 200px;
+  height:200px;
+}
+.Card-front3, .Card-back3{
+  display: flex;
+  width: 200px;
+  height:200px;
+  overflow:hidden;
+  backface-visibility:hidden;
+  position:absolute;
+  transition: transform .5s linear;
+  border-color: red;
+  border-width: .25em;  
+  border-style: double;
+  justify-content: center;
+  align-items: center;
+}
+.content3:hover > .Card-front3{
+  transform: perspective(600px) rotateY(-180deg);
+}
+.content3:hover > .Card-back3{
+  transform: perspective(600px) rotateY(0deg);
+}
+.Card-back3{
+  background:rgb(151, 133, 211);
+  transform:rotateY(180deg);
+}
+footer {
+  border-color: red;
+  border-width: .25em;  
+  border-style: double;
+  margin: 10% 20% 0 20%;
+}
+footer > ul {
+  border-color: red;
+  border-width: .25em;  
+  border-style: double;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+footer > div {
+  border-color: red;
+  border-width: .25em;  
+  border-style: double;
+  display: flex;
+  justify-content: space-evenly;
 }
