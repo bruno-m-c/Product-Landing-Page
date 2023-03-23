@@ -3,6 +3,9 @@
       scroll-behavior: smooth;
   }
 }
+html {
+  background-color: #e0b8e8;
+}
 #header-img {
   width: 70px;
   height: auto;
@@ -46,6 +49,7 @@
   width: 100%;
   top: 0;
   left: 0;
+  background-color: #8e33a1;
 }
 form {
   border-color: black;
@@ -99,6 +103,10 @@ input {
   justify-content: center;
   margin-top: 80px;
   margin-bottom: 80px;
+  border-color: black;
+  border-width: .25em;  
+  border-style: double;
+  height: 250px;
 }
 #video {
   max-width: 450px;
