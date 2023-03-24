@@ -34,15 +34,14 @@ html {
 #nav {
   display: flex;
   align-items: center;
-  border-color: black;
-  border-width: .25em;  
-  border-style: double;
   width: 15%;
   justify-content: space-between;
+  margin-left: 10px;
 }
 #brand {
-  font-size: 1.7em;
-  padding-right: 5px;
+  font-size: 1.65em;
+  padding: 5px auto;
+  font-family: Bradley Hand, cursive;
 }
 #header {
   position: fixed;
