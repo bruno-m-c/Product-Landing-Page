@@ -12,9 +12,6 @@ html {
 } 
 #nav-bar {
   display: flex;
-  border-color: black;
-  border-width: .25em;  
-  border-style: double;
   width: 100%;
   align-items: center;
   justify-content: space-between;
@@ -23,13 +20,16 @@ html {
 #navegation {
   display: flex;
   flex-wrap: wrap;
-  border-color: black;
-  border-width: .25em;  
-  border-style: double;
   list-style: none;
   justify-content: space-between;
   width: 25%;
   margin-right: 25px;
+}
+a:link, a:visited {
+  text-decoration: none;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2em;
 }
 #nav {
   display: flex;
@@ -42,6 +42,7 @@ html {
   font-size: 1.65em;
   padding: 5px auto;
   font-family: Bradley Hand, cursive;
+  color: white
 }
 #header {
   position: fixed;
@@ -76,6 +77,10 @@ input {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+.fa-ghost {
+  color: black;
+  display: flex;
 }
 .desc {
   border-color: black;
