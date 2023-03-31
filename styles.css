@@ -63,38 +63,27 @@ input {
   margin: 4px auto;
 }
 #About_Us {
-  border-color: black;
-  border-width: .25em;  
-  border-style: double;
-  max-width:fit-content;
+  max-width: 50em;
+  width: 50em;
   margin: auto;
   max-height: fit-content;
 }
 .icon {
-  border-color: black;
-  border-width: .25em;  
-  border-style: double;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-right: 8px;
+  margin-right: 2em;
 }
 .fa-ghost {
   color: black;
   display: flex;
 }
 .desc {
-  border-color: black;
-  border-width: .25em;  
-  border-style: double;
   display: flex;
   justify-content: flex-start;
   margin-top: 0;
 }
 .name {
-  border-color: black;
-  border-width: .25em;  
-  border-style: double;
   display: flex;
   justify-content: flex-start;
   margin-bottom: 0;
