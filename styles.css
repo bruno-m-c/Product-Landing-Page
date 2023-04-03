@@ -62,6 +62,11 @@ input {
   display: block;
   margin: 4px auto;
 }
+#register {
+  border: 0;
+  background-color: black;
+  color: white;
+}
 #About_Us {
   max-width: 50em;
   width: 50em;
