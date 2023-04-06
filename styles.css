@@ -133,6 +133,8 @@ img {
   border-color: red;
   border-width: .25em;  
   border-style: double;
+  width: 100%;
+  height: fit-content;
 }
 .content1 {
   cursor: pointer;
@@ -141,17 +143,16 @@ img {
 }
 .Card-front1, .Card-back1{
   display: flex;
+  flex-wrap: wrap;
   width: 200px;
   height:250px;
-  overflow:hidden;
+  overflow: hidden; 
   backface-visibility:hidden;
   position:absolute;
   transition: transform .5s linear;
   border-color: red;
   border-width: .25em;  
   border-style: double;
-  justify-content: center;
-  align-items: center;
 }
 .content1:hover > .Card-front1{
   transform: perspective(600px) rotateY(-180deg);
