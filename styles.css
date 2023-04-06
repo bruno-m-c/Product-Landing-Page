@@ -114,7 +114,7 @@ label {
   width: 100%;
 }
 img {
-  height: 200px;
+  height: 250px;
   width: 200px;
   object-fit: cover;
 }
@@ -129,15 +129,20 @@ img {
   border-width: .25em;  
   border-style: double;
 }
+.Card-back1 > p {
+  border-color: red;
+  border-width: .25em;  
+  border-style: double;
+}
 .content1 {
   cursor: pointer;
   width: 200px;
-  height:200px;
+  height:250px;
 }
 .Card-front1, .Card-back1{
   display: flex;
   width: 200px;
-  height:200px;
+  height:250px;
   overflow:hidden;
   backface-visibility:hidden;
   position:absolute;
@@ -167,12 +172,12 @@ img {
 .content2 {
   cursor: pointer;
   width: 200px;
-  height:200px;
+  height:250px;
 }
 .Card-front2, .Card-back2{
   display: flex;
   width: 200px;
-  height:200px;
+  height:250px;
   overflow:hidden;
   backface-visibility:hidden;
   position:absolute;
@@ -202,12 +207,12 @@ img {
 .content3 {
   cursor: pointer;
   width: 200px;
-  height:200px;
+  height:250px;
 }
 .Card-front3, .Card-back3{
   display: flex;
   width: 200px;
-  height:200px;
+  height: 250px;
   overflow:hidden;
   backface-visibility:hidden;
   position:absolute;
