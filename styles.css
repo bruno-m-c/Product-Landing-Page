@@ -112,11 +112,17 @@ label {
 #video {
   max-width: 450px;
   width: 100%;
+  border: none;
 }
 img {
   height: 250px;
   width: 200px;
   object-fit: cover;
+  border:solid 2px;
+  border-bottom-color:#ffe;
+  border-left-color:#eed;
+  border-right-color:#eed;
+  border-top-color:#ccb;
 }
 #Pictures {
   display: flex;
@@ -125,11 +131,20 @@ img {
 }
 #Tiger {
   display: flex;
+  background-color:#ddc;
+  border:solid 15px;
+  border-bottom-color:#fff;
+  border-left-color:#eee;
+  border-right-color:#eee;
+  border-top-color:#ddd;
+  box-shadow:0 0 5px 0 rgba(0,0,0,.25) inset, 0 5px 10px 5px rgba(0,0,0,.25);
+  height: fit-content;
+  padding: 10px;
 }
 .Card-back1> p {
   width: 100%;
   height: fit-content;
-  margin-left: 10px;
+  margin: 10px auto 0 10px;
 }
 .content1 {
   cursor: pointer;
@@ -155,12 +170,20 @@ img {
 .Card-back1{
   background:white;
   transform:rotateY(180deg);
+  flex-direction: column;
+  justify-content: flex-start;
 }
 #Lily {
   display: flex;
-  border-color: black;
-  border-width: .25em;  
-  border-style: double;
+  background-color:#ddc;
+  border:solid 15px;
+  border-bottom-color:#fff;
+  border-left-color:#eee;
+  border-right-color:#eee;
+  border-top-color:#ddd;
+  box-shadow:0 0 5px 0 rgba(0,0,0,.25) inset, 0 5px 10px 5px rgba(0,0,0,.25);
+  height: fit-content;
+  padding: 10px;
 }
 .content2 {
   cursor: pointer;
@@ -193,9 +216,15 @@ img {
 }
 #Cassie {
   display: flex;
-  border-color: black;
-  border-width: .25em;  
-  border-style: double;
+  background-color:#ddc;
+  border:solid 15px;
+  border-bottom-color:#fff;
+  border-left-color:#eee;
+  border-right-color:#eee;
+  border-top-color:#ddd;
+  box-shadow:0 0 5px 0 rgba(0,0,0,.25) inset, 0 5px 10px 5px rgba(0,0,0,.25);
+  height: fit-content;
+  padding: 10px;
 }
 .content3 {
   cursor: pointer;
