@@ -125,16 +125,11 @@ img {
 }
 #Tiger {
   display: flex;
-  border-color: black;
-  border-width: .25em;  
-  border-style: double;
 }
-.Card-back1 > p {
-  border-color: red;
-  border-width: .25em;  
-  border-style: double;
+.Card-back1> p {
   width: 100%;
   height: fit-content;
+  margin-left: 10px;
 }
 .content1 {
   cursor: pointer;
@@ -150,9 +145,6 @@ img {
   backface-visibility:hidden;
   position:absolute;
   transition: transform .5s linear;
-  border-color: red;
-  border-width: .25em;  
-  border-style: double;
 }
 .content1:hover > .Card-front1{
   transform: perspective(600px) rotateY(-180deg);
@@ -161,7 +153,7 @@ img {
   transform: perspective(600px) rotateY(0deg);
 }
 .Card-back1{
-  background:rgb(151, 133, 211);
+  background:white;
   transform:rotateY(180deg);
 }
 #Lily {
