@@ -185,6 +185,11 @@ img {
   height: fit-content;
   padding: 10px;
 }
+.Card-back2> p {
+  width: 100%;
+  height: fit-content;
+  margin: 10px auto 0 10px;
+}
 .content2 {
   cursor: pointer;
   width: 200px;
@@ -192,17 +197,13 @@ img {
 }
 .Card-front2, .Card-back2{
   display: flex;
+  flex-wrap: wrap;
   width: 200px;
   height:250px;
-  overflow:hidden;
+  overflow: hidden; 
   backface-visibility:hidden;
   position:absolute;
   transition: transform .5s linear;
-  border-color: red;
-  border-width: .25em;  
-  border-style: double;
-  justify-content: center;
-  align-items: center;
 }
 .content2:hover > .Card-front2{
   transform: perspective(600px) rotateY(-180deg);
@@ -211,8 +212,10 @@ img {
   transform: perspective(600px) rotateY(0deg);
 }
 .Card-back2{
-  background:rgb(151, 133, 211);
+  background:white;
   transform:rotateY(180deg);
+  flex-direction: column;
+  justify-content: flex-start;
 }
 #Cassie {
   display: flex;
@@ -226,6 +229,11 @@ img {
   height: fit-content;
   padding: 10px;
 }
+.Card-back3> p {
+  width: 100%;
+  height: fit-content;
+  margin: 10px auto 0 10px;
+}
 .content3 {
   cursor: pointer;
   width: 200px;
@@ -233,17 +241,13 @@ img {
 }
 .Card-front3, .Card-back3{
   display: flex;
+  flex-wrap: wrap;
   width: 200px;
-  height: 250px;
-  overflow:hidden;
+  height:250px;
+  overflow: hidden; 
   backface-visibility:hidden;
   position:absolute;
   transition: transform .5s linear;
-  border-color: red;
-  border-width: .25em;  
-  border-style: double;
-  justify-content: center;
-  align-items: center;
 }
 .content3:hover > .Card-front3{
   transform: perspective(600px) rotateY(-180deg);
@@ -252,8 +256,10 @@ img {
   transform: perspective(600px) rotateY(0deg);
 }
 .Card-back3{
-  background:rgb(151, 133, 211);
+  background:white;
   transform:rotateY(180deg);
+  flex-direction: column;
+  justify-content: flex-start;
 }
 footer {
   margin: 15% 20% -1% 20%;
