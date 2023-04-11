@@ -77,30 +77,36 @@ label {
   width: 50em;
   margin: auto;
   max-height: fit-content;
+  border: 1px solid black;
 }
 .icon {
   display: flex;
   flex-direction: column;
   justify-content: center;
   margin-right: 2em;
+  border: 1px solid red;
 }
 .fa-ghost {
   color: black;
   display: flex;
+  border: 1px solid blue;
 }
 .desc {
   display: flex;
   justify-content: flex-start;
   margin-top: 0;
+  border: 1px solid green;
 }
 .name {
   display: flex;
   justify-content: flex-start;
   margin-bottom: 0;
+  border: 1px solid yellow;
 }
 .grid {
   display: flex;
   justify-content: flex-start;
+  border: 1px solid purple;
 }
 #Video {
   display: flex;
