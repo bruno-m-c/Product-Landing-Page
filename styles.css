@@ -94,7 +94,7 @@ label {
   text-align: center;
   margin-top: 0;
   font-family:  Arial, Helvetica, sans-serif;
-  background-color: #e0b8e8;
+  background-color: #eeeeee;
   padding: 5px;
 }
 #detail {
@@ -105,7 +105,7 @@ label {
   display: flex;
   justify-content: flex-start;
   font-family:  Arial, Helvetica, sans-serif;
-  font-size: 3.2vw;
+  font-size: 40px;
 }
 .grid {
   display: flex;
@@ -127,14 +127,14 @@ label {
   border: none;
 }
 img {
-  height: 250px;
+  height: 243px;
   width: 200px;
   object-fit: cover;
   border:solid 2px;
-  border-bottom-color:#ffe;
-  border-left-color:#eed;
-  border-right-color:#eed;
-  border-top-color:#ccb;
+  border-bottom-color:#f6f3f3;
+  border-left-color:#e9e2e2;
+  border-right-color:#e9e2e2;
+  border-top-color:#d5c8c8;
 }
 #Pictures {
   display: flex;
@@ -180,7 +180,7 @@ img {
   transform: perspective(600px) rotateY(0deg);
 }
 .Card-back1{
-  background:#e0b8e8;
+  background:#eeeeee;
   transform:rotateY(180deg);
   flex-direction: column;
   justify-content: flex-start;
@@ -224,7 +224,7 @@ img {
   transform: perspective(600px) rotateY(0deg);
 }
 .Card-back2{
-  background:#e0b8e8;
+  background:#eeeeee;
   transform:rotateY(180deg);
   flex-direction: column;
   justify-content: flex-start;
@@ -268,7 +268,7 @@ img {
   transform: perspective(600px) rotateY(0deg);
 }
 .Card-back3{
-  background:#e0b8e8;
+  background:#eeeeee;
   transform:rotateY(180deg);
   flex-direction: column;
   justify-content: flex-start;
