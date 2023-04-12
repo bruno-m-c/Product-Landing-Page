@@ -77,42 +77,42 @@ label {
   width: 50em;
   margin: auto;
   max-height: fit-content;
-  border: 1px solid black;
 }
 .icon {
   display: flex;
   flex-direction: column;
   justify-content: center;
   margin-right: 0.8em;
-  border: 1px solid red;
 }
 .fa-ghost {
   color: black;
   display: flex;
-  border: 1px solid blue;
 }
 .desc {
   display: flex;
   justify-content: center;
   text-align: center;
   margin-top: 0;
-  border: 1px solid green;
+  font-family:  Arial, Helvetica, sans-serif;
+  background-color: #e0b8e8;
+  padding: 5px;
 }
 #detail {
-  border: 1px solid black;
   display: flex;
   width: 100%;
 }
 .name {
   display: flex;
   justify-content: flex-start;
-  margin-bottom: 0;
-  border: 1px solid yellow;
+  font-family:  Arial, Helvetica, sans-serif;
+  font-size: 3.2vw;
 }
 .grid {
   display: flex;
   justify-content: flex-start;
-  border: 1px solid purple;
+  box-shadow:0 0 9px 0 rgba(0,0,0,.25);
+  background-color: #be6ad0;
+  padding: 7px;
 }
 #Video {
   display: flex;
@@ -143,12 +143,12 @@ img {
 }
 #Tiger {
   display: flex;
-  background-color:#ddc;
+  background-color:#e0c4a9;
   border:solid 15px;
-  border-bottom-color:#fff;
-  border-left-color:#eee;
-  border-right-color:#eee;
-  border-top-color:#ddd;
+  border-bottom-color:#c89665;
+  border-left-color:#bf864c;
+  border-right-color:#bf864c;
+  border-top-color:#ac743d;
   box-shadow:0 0 5px 0 rgba(0,0,0,.25) inset, 0 5px 10px 5px rgba(0,0,0,.25);
   height: fit-content;
   padding: 10px;
@@ -180,19 +180,19 @@ img {
   transform: perspective(600px) rotateY(0deg);
 }
 .Card-back1{
-  background:white;
+  background:#e0b8e8;
   transform:rotateY(180deg);
   flex-direction: column;
   justify-content: flex-start;
 }
 #Lily {
   display: flex;
-  background-color:#ddc;
+  background-color:#e0c4a9;
   border:solid 15px;
-  border-bottom-color:#fff;
-  border-left-color:#eee;
-  border-right-color:#eee;
-  border-top-color:#ddd;
+  border-bottom-color:#c89665;
+  border-left-color:#bf864c;
+  border-right-color:#bf864c;
+  border-top-color:#ac743d;
   box-shadow:0 0 5px 0 rgba(0,0,0,.25) inset, 0 5px 10px 5px rgba(0,0,0,.25);
   height: fit-content;
   padding: 10px;
@@ -224,19 +224,19 @@ img {
   transform: perspective(600px) rotateY(0deg);
 }
 .Card-back2{
-  background:white;
+  background:#e0b8e8;
   transform:rotateY(180deg);
   flex-direction: column;
   justify-content: flex-start;
 }
 #Cassie {
   display: flex;
-  background-color:#ddc;
+  background-color:#e0c4a9;
   border:solid 15px;
-  border-bottom-color:#fff;
-  border-left-color:#eee;
-  border-right-color:#eee;
-  border-top-color:#ddd;
+  border-bottom-color:#c89665;
+  border-left-color:#bf864c;
+  border-right-color:#bf864c;
+  border-top-color:#ac743d;
   box-shadow:0 0 5px 0 rgba(0,0,0,.25) inset, 0 5px 10px 5px rgba(0,0,0,.25);
   height: fit-content;
   padding: 10px;
@@ -268,7 +268,7 @@ img {
   transform: perspective(600px) rotateY(0deg);
 }
 .Card-back3{
-  background:white;
+  background:#e0b8e8;
   transform:rotateY(180deg);
   flex-direction: column;
   justify-content: flex-start;
