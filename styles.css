@@ -126,7 +126,7 @@ label {
   width: 100%;
   border: none;
 }
-img {
+.card-img {
   height: 243px;
   width: 200px;
   object-fit: cover;
