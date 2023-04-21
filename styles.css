@@ -3,7 +3,7 @@
       scroll-behavior: smooth;
   }
 }
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 750px) {
   #header-img {
     width: 70px;
     height: auto;
@@ -29,7 +29,7 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.2em;
   }
-  .fa-bars {
+  .fa-bars, #menu-label, #menu {
     display: none;
   }
   #nav {
@@ -323,12 +323,19 @@ html {
 }
 #navegation {
   display: flex;
-  flex-wrap: wrap;
   list-style: none;
   justify-content: space-between;
   width: 25%;
   margin-right: 25px;
   max-height: 0;
+  overflow: hidden;
+}
+#menu {
+    display: none;
+}
+/* Toggle Effect */
+#menu:checked ~ #navegation {
+  max-height: 100%;
 }
 a:link, a:visited {
   text-decoration: none;
