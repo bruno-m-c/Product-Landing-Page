@@ -35,7 +35,7 @@
   #nav {
     display: flex;
     align-items: center;
-    width: 25%;
+    width: fit-content;
     justify-content: flex-start;
     margin-left: 10px;
   }
@@ -324,12 +324,11 @@
   }
   #nav-bar {
     display: flex;
+    flex-direction: column;
     max-width: 100vw;
     align-items: center;
-    justify-content: space-around;
     height: fit-content;
-    flex-flow: wrap;
-    border: 2PX SOLID red ;
+    border: 2PX SOLID red;
   }
   #navegation {
     display: flex;
@@ -346,8 +345,14 @@
       display: none;
   }
   #menu-label {
-    width: 20vw;
     border: 2PX SOLID yellow ;
+    width: fit-content;
+    margin-left: 7vw;
+    align-items: center;
+    position: absolute;
+    left: 1vw;
+    top: 5vw;
+    margin: 0 auto auto 0;
   }
   /* Toggle Effect */
   #menu:checked ~ #navegation {
@@ -363,8 +368,9 @@
     display: flex;
     align-items: center;
     width: 80vw;
-    justify-content: flex-start;
-    border: 2PX SOLID BLUE ;
+    justify-content: center;
+    border: 2PX SOLID BLUE;
+    margin-left: 25vw;
   }
   #brand {
     font-size: 1.65em;
