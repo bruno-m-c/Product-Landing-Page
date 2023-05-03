@@ -328,7 +328,6 @@
     max-width: 100vw;
     align-items: center;
     height: fit-content;
-    border: 2PX SOLID red;
   }
   #navegation {
     display: flex;
@@ -336,27 +335,24 @@
     list-style: none;
     max-height: 0;
     width: 100%;
-    border: 2PX SOLID green ;
     overflow: hidden;
-    margin: 0;
+    margin: 0 auto 5px auto;
   }
   #menu {
       display: none;
   }
   #solution {
-    border: 2PX SOLID black ;
     display: flex;
     flex-direction: row;
     align-items: center;
     width: 100%;
-    justify-content: center;
+    margin: 8px 5px 5px 5px;
   }
   #menu-label {
-    border: 2PX SOLID yellow ;
     width: fit-content;
     align-items: center;
     height: fit-content;
-    margin-left: 0;
+    margin-left: 10px;
     padding: 3px;
   }
   .fa-bars {
@@ -377,7 +373,7 @@
     align-items: center;
     width: fit-content;
     justify-content: center;
-    border: 2PX SOLID BLUE;
+    margin: auto;
   }
   #brand {
     font-size: 8vw;
