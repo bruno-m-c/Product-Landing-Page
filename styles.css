@@ -334,25 +334,33 @@
     display: flex;
     flex-direction: column;
     list-style: none;
-    justify-content: space-between;
-    width: 25%;
-    margin-right: 25px;
     max-height: 0;
+    width: 100%;
     border: 2PX SOLID green ;
     overflow: hidden;
+    margin: 0;
   }
   #menu {
       display: none;
   }
+  #solution {
+    border: 2PX SOLID black ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+  }
   #menu-label {
     border: 2PX SOLID yellow ;
     width: fit-content;
-    margin-left: 7vw;
     align-items: center;
-    position: absolute;
-    left: 1vw;
-    top: 5vw;
-    margin: 0 auto auto 0;
+    height: fit-content;
+    margin-left: 0;
+    padding: 3px;
+  }
+  .fa-bars {
+    font-size: 13vw;
   }
   /* Toggle Effect */
   #menu:checked ~ #navegation {
@@ -367,13 +375,12 @@
   #nav {
     display: flex;
     align-items: center;
-    width: 80vw;
+    width: fit-content;
     justify-content: center;
     border: 2PX SOLID BLUE;
-    margin-left: 25vw;
   }
   #brand {
-    font-size: 1.65em;
+    font-size: 8vw;
     padding: 5px 15px;
     font-family: Bradley Hand, cursive;
     color: white
@@ -625,7 +632,7 @@
     font-size: 0.8em;
     margin-bottom: 0.2em;
   }
-  .fa-solid {
+  .fa-ghost, .fa-seedling, .fa-paw {
     font-size: 3em;
     min-width: 1em;
     text-align: center;
