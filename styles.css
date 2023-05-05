@@ -321,6 +321,7 @@
     top: 0;
     left: 0;
     background-color: #8e33a1;
+    z-index: 999;
   }
   #nav-bar {
     display: flex;
@@ -332,6 +333,7 @@
   #navegation {
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
     list-style: none;
     max-height: 0;
     width: 100%;
@@ -361,12 +363,13 @@
   /* Toggle Effect */
   #menu:checked ~ #navegation {
     max-height: 100%;
+    height: 30vw;
   }
   a:link, a:visited {
     text-decoration: none;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.2em;
+    font-size: 1.3em;
   }
   #nav {
     display: flex;
@@ -403,9 +406,9 @@
     margin: 4px auto;
   }
   #About_Us {
-    max-width: 50em;
-    width: 50em;
-    margin: auto;
+    max-width: 750px;
+    width: auto;
+    margin: auto 10%;
     max-height: fit-content;
   }
   .icon {
@@ -468,6 +471,7 @@
   }
   #Pictures {
     display: flex;
+    flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
   }
@@ -482,6 +486,7 @@
     box-shadow:0 0 5px 0 rgba(0,0,0,.25) inset, 0 5px 10px 5px rgba(0,0,0,.25);
     height: fit-content;
     padding: 10px;
+    margin: 5vw auto;
   }
   .Card-back1> p {
     width: 100%;
@@ -526,6 +531,7 @@
     box-shadow:0 0 5px 0 rgba(0,0,0,.25) inset, 0 5px 10px 5px rgba(0,0,0,.25);
     height: fit-content;
     padding: 10px;
+    margin: 5vw auto;
   }
   .Card-back2> p {
     width: 100%;
@@ -570,6 +576,7 @@
     box-shadow:0 0 5px 0 rgba(0,0,0,.25) inset, 0 5px 10px 5px rgba(0,0,0,.25);
     height: fit-content;
     padding: 10px;
+    margin: 5vw auto;
   }
   .Card-back3> p {
     width: 100%;
