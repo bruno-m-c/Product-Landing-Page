@@ -25,7 +25,7 @@
   }
   a:link, a:visited {
     text-decoration: none;
-    color: white;
+    color: #EBEBEB;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.2em;
   }
@@ -43,7 +43,7 @@
     font-size: 1.65em;
     padding: 5px 15px;
     font-family: Bradley Hand, cursive;
-    color: white;
+    color: #EBEBEB;
   }
   #header {
     position: fixed;
@@ -68,7 +68,7 @@
   #register {
     border: 0;
     background-color: black;
-    color: white;
+    color: #EBEBEB;
     font-size: 15px;
     display: block;
     margin: 4px auto;
@@ -95,7 +95,7 @@
     text-align: center;
     margin-top: 0;
     font-family:  Arial, Helvetica, sans-serif;
-    background-color: #eeeeee;
+    background-color: #EBEBEB;
     padding: 5px;
   }
   #detail {
@@ -181,7 +181,7 @@
     transform: perspective(600px) rotateY(0deg);
   }
   .Card-back1{
-    background:#eeeeee;
+    background:#EBEBEB;
     transform:rotateY(180deg);
     flex-direction: column;
     justify-content: flex-start;
@@ -225,7 +225,7 @@
     transform: perspective(600px) rotateY(0deg);
   }
   .Card-back2{
-    background:#eeeeee;
+    background:#EBEBEB;
     transform:rotateY(180deg);
     flex-direction: column;
     justify-content: flex-start;
@@ -269,7 +269,7 @@
     transform: perspective(600px) rotateY(0deg);
   }
   .Card-back3{
-    background:#eeeeee;
+    background:#EBEBEB;
     transform:rotateY(180deg);
     flex-direction: column;
     justify-content: flex-start;
@@ -286,7 +286,7 @@
     list-style: none;
     display: flex;
     justify-content: space-evenly;
-    color: white;
+    color: #EBEBEB;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
     margin-top: .2em;
@@ -294,7 +294,7 @@
   footer > div {
     display: flex;
     justify-content: space-evenly;
-    color: white;
+    color: #EBEBEB;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 0.8em;
     margin-bottom: 0.2em;
@@ -309,7 +309,7 @@
 
 @media screen and (max-width: 749px) {
   html {
-    background-color: #e0b8e8;
+    background-color: #EBEBEB;
   }
   #header-img {
     width: 70px;
@@ -320,7 +320,7 @@
     width: 100%;
     top: 0;
     left: 0;
-    background-color: #8e33a1;
+    background-color: #8257D3;
     z-index: 999;
   }
   #nav-bar {
@@ -367,7 +367,7 @@
   }
   a:link, a:visited {
     text-decoration: none;
-    color: white;
+    color: #EBEBEB;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.3em;
   }
@@ -382,7 +382,7 @@
     font-size: 8vw;
     padding: 5px 15px;
     font-family: Bradley Hand, cursive;
-    color: white
+    color: #EBEBEB
   }
   form {
     text-align: center;
@@ -400,8 +400,8 @@
   }
   #register {
     border: 0;
-    background-color: black;
-    color: white;
+    background-color: #252525;
+    color: #EBEBEB;
     font-size: 15px;
     display: block;
     margin: 4px auto;
@@ -425,7 +425,7 @@
     text-align: center;
     margin-top: 0;
     font-family:  Arial, Helvetica, sans-serif;
-    background-color: #eeeeee;
+    background-color: #EBEBEB;
     padding: 5px;
   }
   #detail {
@@ -442,7 +442,7 @@
     display: flex;
     justify-content: flex-start;
     box-shadow:0 0 9px 0 rgba(0,0,0,.25);
-    background-color: #be6ad0;
+    background-color: #8257D3;
     padding: 7px;
   }
   .fa-ghost, .fa-seedling, .fa-paw {
@@ -519,7 +519,7 @@
     transform: perspective(600px) rotateY(0deg);
   }
   .Card-back1{
-    background:#eeeeee;
+    background:#EBEBEB;
     transform:rotateY(180deg);
     flex-direction: column;
     justify-content: flex-start;
@@ -564,7 +564,7 @@
     transform: perspective(600px) rotateY(0deg);
   }
   .Card-back2{
-    background:#eeeeee;
+    background:#EBEBEB;
     transform:rotateY(180deg);
     flex-direction: column;
     justify-content: flex-start;
@@ -609,7 +609,7 @@
     transform: perspective(600px) rotateY(0deg);
   }
   .Card-back3{
-    background:#eeeeee;
+    background:#EBEBEB;
     transform:rotateY(180deg);
     flex-direction: column;
     justify-content: flex-start;
@@ -617,7 +617,7 @@
   footer {
     width: 100vw;
     margin: 15% 0 -1% -4%;
-    background-color: #8e33a1;
+    background-color: #8257D3;
     display: flex;
     flex-direction: column;
     height: fit-content;
@@ -629,7 +629,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    color: white;
+    color: #EBEBEB;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
     margin-top: .2em;
@@ -637,7 +637,7 @@
   footer > div {
     display: flex;
     justify-content: center;
-    color: white;
+    color: #EBEBEB;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 0.8em;
     margin-bottom: 0.2em;
