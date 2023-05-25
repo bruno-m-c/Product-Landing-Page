@@ -4,6 +4,9 @@
   }
 }
 @media screen and (min-width: 750px) {
+  html {
+    background-color: #EBEBEB;
+  }
   #header-img {
     width: 70px;
     height: auto;
@@ -20,7 +23,7 @@
     flex-wrap: wrap;
     list-style: none;
     justify-content: space-between;
-    width: 25%;
+    width: 300px;
     margin-right: 25px;
   }
   a:link, a:visited {
@@ -50,7 +53,7 @@
     width: 100%;
     top: 0;
     left: 0;
-    background-color: #8e33a1;
+    background-color: #8257D3;
   }
   form {
     text-align: center;
@@ -112,7 +115,7 @@
     display: flex;
     justify-content: flex-start;
     box-shadow:0 0 9px 0 rgba(0,0,0,.25);
-    background-color: #be6ad0;
+    background-color: #8257D3;
     padding: 7px;
   }
   #Video {
@@ -120,10 +123,12 @@
     justify-content: center;
     margin-top: 100px;
     margin-bottom: 130px;
-    height: 250px;
+    height: 350px;
   }
   #video {
-    max-width: 450px;
+    max-width: 650px;
+    max-height: 650px;
+    height: 400px;
     width: 100%;
     border: none;
   }
@@ -276,7 +281,7 @@
   }
   footer {
     margin: 15% 20% -1% 20%;
-    background-color: #8e33a1;
+    background-color: #8257D3;
     display: block;
     height: fit-content;
     padding-top: .5em;
