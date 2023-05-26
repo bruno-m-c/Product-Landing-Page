@@ -7,10 +7,12 @@
   html {
     background-color: #EBEBEB;
   }
+  /* Sub-section of "#nav": Website logo image in the header */
   #header-img {
     width: 70px;
     height: auto;
   } 
+  /* Navegation bar */
   #nav-bar {
     display: flex;
     width: 100%;
@@ -18,6 +20,7 @@
     justify-content: space-between;
     max-height: 50px;
   }
+  /* Sub-section of "#nav-bar" -> Navegation links */
   #navegation {
     display: flex;
     flex-wrap: wrap;
@@ -26,15 +29,19 @@
     width: 300px;
     margin-right: 25px;
   }
+  /* Sub-section of "#navegation" -> Text/link formating */
   a:link, a:visited {
-    text-decoration: none;
+    text-decoration: none; /* Stop links from being blue/purple before or after clickning on it*/
     color: #EBEBEB;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.2em;
   }
+  /*Hides "3-bars" fontawesome from screens under 750px*/
   .fa-bars, #menu-label, #menu {
     display: none;
   }
+  /*Section that consists of "#header-img" + "#brand" ->
+  Which are Website logo image and title*/
   #nav {
     display: flex;
     align-items: center;
@@ -42,6 +49,7 @@
     justify-content: flex-start;
     margin-left: 10px;
   }
+  /**/
   #brand {
     font-size: 1.65em;
     padding: 5px 15px;
