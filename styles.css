@@ -7,18 +7,46 @@
   html {
     background-color: #EBEBEB;
   }
-  /* Sub-section of "#nav": Website logo image in the header */
-  #header-img {
-    width: 70px;
-    height: auto;
-  } 
-  /* Navegation bar */
+  /*Section that consists of "#nav-bar" */
+  #header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #8257D3;
+  }
+  /*Section that consists of "#solution","#menu", and "#navegation" */
   #nav-bar {
     display: flex;
     width: 100%;
     align-items: center;
     justify-content: space-between;
     max-height: 50px;
+  }
+  /*Hides "3-bars" fontawesome from screens under 750px*/
+  .fa-bars, #menu-label, #menu {
+    display: none;
+  }
+  /*Section that consists of "#header-img" + "#brand" ->
+  Which are Website logo image and title*/
+  #nav {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    justify-content: flex-start;
+    margin-left: 10px;
+  }
+   /* Sub-section of "#nav": Website logo image in the header */
+   #header-img {
+    width: 70px;
+    height: auto;
+  } 
+  /* Sub-section of "#nav" -> Name/Brand of the website*/
+  #brand {
+    font-size: 1.65em;
+    padding: 5px 15px;
+    font-family: Bradley Hand, cursive;
+    color: #EBEBEB;
   }
   /* Sub-section of "#nav-bar" -> Navegation links */
   #navegation {
@@ -36,45 +64,20 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.2em;
   }
-  /*Hides "3-bars" fontawesome from screens under 750px*/
-  .fa-bars, #menu-label, #menu {
-    display: none;
-  }
-  /*Section that consists of "#header-img" + "#brand" ->
-  Which are Website logo image and title*/
-  #nav {
-    display: flex;
-    align-items: center;
-    width: fit-content;
-    justify-content: flex-start;
-    margin-left: 10px;
-  }
-  /**/
-  #brand {
-    font-size: 1.65em;
-    padding: 5px 15px;
-    font-family: Bradley Hand, cursive;
-    color: #EBEBEB;
-  }
-  #header {
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-    background-color: #8257D3;
-  }
+  /* Section that consist of "#email", "label", and "#register" -> Subscribe to learn more section*/
   form {
     text-align: center;
     margin: 90px auto 60px auto;
+  }
+  /*Sub-section of "form": Formating of the text*/
+  label {
+    font-size: 20px;
   }
   #email {
     display: block;
     margin: 4px auto;
     width: 20em;
     min-width: 20em;
-  }
-  label {
-    font-size: 20px;
   }
   #register {
     border: 0;
