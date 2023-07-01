@@ -175,21 +175,21 @@
     height: fit-content;
     padding: 10px;
   }
-  /*  */
+  /* Sub-section of "#Tiger" -> Container for the flipping card */
   .content1 {
     cursor: pointer;
     width: 200px;
     height:250px;
   }
-  /*  */
+  /* Sub-section of "#Tiger" -> Make the #Card-front1 flip with hover. Added Perspective() to the transform in order to make your card appear protruding when it flips over. The number we use inside perspective() will determine how far ‘back’ the perspective goes.  */
   .content1:hover > .Card-front1{
     transform: perspective(600px) rotateY(-180deg);
   }
-  /*  */
+  /* Sub-section of "#Tiger" -> Make the #Card-back1 flip with hover. Added Perspective() to the transform in order to make your card appear protruding when it flips over. The number we use inside perspective() will determine how far ‘back’ the perspective goes. */
   .content1:hover > .Card-back1{
     transform: perspective(600px) rotateY(0deg);
   }
-  /*  */
+  /* Sub-section of ".content1" -> Formatting both "#Card-front1" and "#Card-back1" */
   .Card-front1, .Card-back1{
     display: flex;
     flex-wrap: wrap;
@@ -200,7 +200,7 @@
     position:absolute;
     transition: transform .5s linear;
   }
-  /*  */
+  /* Sub-section of ".Card-front1" -> Formatting card image */
   .card-img {
     height: 243px;
     width: 200px;
